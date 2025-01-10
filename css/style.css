@@ -25,8 +25,9 @@
     border-radius: 8px;
     background: #006A50;
 }
-.btn:hover{
-    color: #006A50; 
+
+.btn:hover {
+    color: #006A50;
     background-color: white;
     border: 1px solid #006A50;
 }
@@ -42,8 +43,9 @@
     border: 1px solid #006A50;
     text-decoration: none;
 }
-.btn-m:hover{
-    color: #006A50; 
+
+.btn-m:hover {
+    color: #006A50;
     background-color: white;
     border: 1px solid #006A50;
 }
@@ -291,11 +293,22 @@ nav a {
 
 /* Recent News Start */
 
+.news-heading {
+    margin-bottom: 24px;
+}
+
+.news-para {
+    margin-bottom: 32px;
+}
 
 .news {
     display: flex;
+    padding: 48px;
+    align-items: center;
     gap: 32px;
-
+    border-radius: 24px;
+    background: #FFF;
+    margin-top: 24px;
 }
 
 .news .img {
@@ -303,14 +316,32 @@ nav a {
     height: 306px;
     border-radius: 24px;
 }
-.news-info{
+
+.news-info {
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: space-between;
 }
 
-/* Recent News End */
+.news-info p {
+    margin-top: 12px;
+}
+
+.news-info a {
+    margin-top: 32px;
+}
+
+.news-info span {
+    margin-left: 12px;
+}
+
+.channel-logo {
+    width: 134px;
+    height: 40px;
+    margin-top: 12px;
+}
+
+/* Recent News End  */
 
 
 
