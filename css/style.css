@@ -90,3 +90,33 @@
 .space {
     margin-top: 80px;
 }
+
+
+
+/* Header Style Start */
+
+/* Nav Area style */
+nav {
+    display: flex;
+    padding: 24px 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav a {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
