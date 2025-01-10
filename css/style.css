@@ -286,8 +286,8 @@ nav a:hover {
 
 /* The Vision of Future End */
 
-/* Quiets Start */
-.quiets {
+/* quotes Start */
+.quotes {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: #FFF;
@@ -297,7 +297,7 @@ nav a:hover {
     padding: 48px 24px;
 }
 
-.quiets .quiets-description{
+.quotes .quotes-description{
     color: rgba(14, 14, 14, 0.80);
 font-family: "Fira Sans";
 font-size: 16px;
@@ -305,7 +305,7 @@ font-weight: 400;
 line-height: 24px;
 margin-bottom: 12px;
 }
-.quiets .quiets-title{
+.quotes .quotes-title{
     color: rgba(14, 14, 14, 0.80);
 font-family: "Fira Sans";
 font-size: 20px;
@@ -315,7 +315,7 @@ line-height: 24px;
 margin-bottom: 4px;
 }
 
-.quiets .quiets-sub-title{
+.quotes .quotes-sub-title{
     color: rgba(14, 14, 14, 0.60);
     font-family: "Fira Sans";
     font-size: 16px;
@@ -323,7 +323,7 @@ margin-bottom: 4px;
     font-weight: 400;
     line-height: 24px; /* 150% */
 }
-/* Quiets End */
+/* quotes End */
 
 
 /* Your Opinion Matters Start */
