@@ -1,11 +1,92 @@
 /* Font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Fira Sans", serif; */
 
 
 /* Reset CSS */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Global CSS */
+.text-canter {
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #006A50;
+}
+
+.btn-m {
+    display: flex;
+    padding: 13px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #006A50;
+}
 
 
+.heading-1 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
- 
+.heading-2 {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.heading-3 {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.paragraph {
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+
+}
+
+.space {
+    margin-top: 80px;
+}
