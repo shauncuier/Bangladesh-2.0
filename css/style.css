@@ -297,40 +297,84 @@ nav a:hover {
     padding: 48px 24px;
 }
 
-.quotes .quotes-description{
+.quotes .quotes-description {
     color: rgba(14, 14, 14, 0.80);
-font-family: "Fira Sans";
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-margin-bottom: 12px;
-}
-.quotes .quotes-title{
-    color: rgba(14, 14, 14, 0.80);
-font-family: "Fira Sans";
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 24px; 
-margin-bottom: 4px;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
 }
 
-.quotes .quotes-sub-title{
+.quotes .quotes-title {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.quotes .quotes-sub-title {
     color: rgba(14, 14, 14, 0.60);
     font-family: "Fira Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
+    /* 150% */
 }
+
 /* quotes End */
 
 
 /* Your Opinion Matters Start */
+.opinion h1{
+    margin-bottom: 24px;
+}
+.table {
+    border-radius: 16px;
+    background: #FFF;
+    padding: 32px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 
 
+}
 
-/* Your Opinion Matters End */
+th {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #C6E4D6;
+    padding: 24px;
+    border: none;
+    text-align: left;
+}
+
+td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 12px;
+    text-align: center;
+}
+
+td select {
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+    background: #C6E4D6;
+    padding: 10px 14px;
+    text-align: center;
+}
+
+.td-info {
+    text-align: left;
+}
+
+/* Your Opinion Matters Start */
 
 
 
