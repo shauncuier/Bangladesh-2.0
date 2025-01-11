@@ -5,6 +5,7 @@
 
 
 /* Reset CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@
 }
 
 /* Global CSS */
+
 .text-canter {
     text-align: center;
 }
@@ -102,6 +104,7 @@ body {
 /* Header Style Start */
 
 /* Nav Area style */
+
 nav {
     display: flex;
     padding: 24px 0px;
@@ -110,10 +113,14 @@ nav {
 }
 
 nav h1 {
-    color: #0E0E0E;
+    color: #006A50;
     font-family: "Fira Sans";
     font-size: 32px;
     font-weight: 700;
+}
+
+nav h1 span {
+    color: red;
 }
 
 nav a {
@@ -135,6 +142,7 @@ nav a:hover {
 /* Nav Done */
 
 /* Hero Bangladesh 2.0 Start */
+
 .hero {
     display: flex;
     align-items: center;
@@ -153,7 +161,6 @@ nav a:hover {
     flex-direction: column;
     gap: 24px;
 }
-
 
 .hero-item-1 p {
     color: rgba(14, 14, 14, 0.50);
@@ -197,6 +204,7 @@ nav a:hover {
 /* Pillars of "Bangladesh 2.0" End */
 
 /* The Vision of Future */
+
 .vision-cards {
     display: flex;
     gap: 24px;
@@ -287,6 +295,7 @@ nav a:hover {
 /* The Vision of Future End */
 
 /* quotes Start */
+
 .quotes {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -330,6 +339,7 @@ nav a:hover {
 
 
 /* Your Opinion Matters Start */
+
 .opinion h1 {
     margin-bottom: 24px;
 }
@@ -358,7 +368,7 @@ th {
     font-family: "Fira Sans";
     font-size: 20px;
     font-weight: 600;
-    
+
 }
 
 td {
@@ -379,6 +389,7 @@ td select {
 .td-info {
     text-align: left;
 }
+
 table td:first-child {
     width: 80%;
 }
@@ -438,6 +449,7 @@ table td:first-child {
 /* Recent News End  */
 
 /* Donate Today Start */
+
 .donate h1 {
     margin-bottom: 24px;
 }
@@ -510,6 +522,7 @@ table td:first-child {
 
 
 /* Subscribe Newsletter Start */
+
 .call-to-action {
 
     flex-direction: column;
@@ -559,7 +572,8 @@ table td:first-child {
     height: 70px;
     cursor: pointer;
 }
-.call-to-action button:hover{
+
+.call-to-action button:hover {
     background: #22332f9f;
     color: #ffffff;
 }
@@ -572,52 +586,11 @@ table td:first-child {
     font-weight: 400;
     line-height: normal;
 }
+
 /* Subscribe Newsletter End */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
+
 footer {
     margin: 50px 0px;
     padding: 50px 0;
@@ -625,10 +598,14 @@ footer {
 }
 
 footer h1 {
-    color: #0E0E0E;
+    color: #006A50;
     font-family: "Fira Sans";
     font-size: 32px;
     font-weight: 700;
+}
+
+footer h1 span {
+    color: red;
 }
 
 footer hr {
