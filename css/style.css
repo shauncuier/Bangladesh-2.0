@@ -293,7 +293,7 @@ nav a:hover {
     background: #FFF;
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
-    background-position: 20px 20px;
+    background-position: 25px 20px;
     padding: 48px 24px;
 }
 
@@ -571,7 +571,6 @@ table td:first-child {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 /* Subscribe Newsletter End */
 
