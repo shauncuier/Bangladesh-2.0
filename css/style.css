@@ -330,9 +330,10 @@ nav a:hover {
 
 
 /* Your Opinion Matters Start */
-.opinion h1{
+.opinion h1 {
     margin-bottom: 24px;
 }
+
 .table {
     border-radius: 16px;
     background: #FFF;
@@ -353,12 +354,17 @@ th {
     padding: 24px;
     border: none;
     text-align: left;
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-weight: 600;
+    
 }
 
 td {
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgba(255, 255, 255, 0.10);
-    padding: 12px;
+    padding: 24px;
     text-align: center;
 }
 
@@ -373,10 +379,11 @@ td select {
 .td-info {
     text-align: left;
 }
+table td:first-child {
+    width: 80%;
+}
 
 /* Your Opinion Matters Start */
-
-
 
 /* Recent News Start */
 
@@ -552,7 +559,10 @@ td select {
     height: 70px;
     cursor: pointer;
 }
-
+.call-to-action button:hover{
+    background: #22332f9f;
+    color: #ffffff;
+}
 
 .call-to-action form input::placeholder {
     color: rgba(14, 14, 14, 0.30);
@@ -563,7 +573,6 @@ td select {
     line-height: normal;
 
 }
-
 /* Subscribe Newsletter End */
 
 
