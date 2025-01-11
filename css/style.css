@@ -540,6 +540,7 @@ table td:first-child {
 
 .call-to-action h1 {
     margin-bottom: 16px;
+    color: #006A50;
 }
 
 .call-to-action p {
@@ -620,7 +621,9 @@ footer hr {
     width: 1122px;
     border: 1px solid rgba(243, 39, 39, 0.1)
 }
-
+.call-to-action h1 span{
+    color: red;
+}
 .icons {
     display: flex;
     gap: 24px;
