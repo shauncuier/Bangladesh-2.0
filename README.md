@@ -23,7 +23,7 @@ A website showcasing the vision of Bangladesh 2.0 - focusing on innovation, sust
 
 1. Clone this repository:
    ```bash
-   [git clone https://github.com/your-username/bangladesh-2.0.git](https://github.com/shauncuier/Bangladesh-2.0.git)
+   git clone https://github.com/shauncuier/Bangladesh-2.0.git
    ```
 
 2. Open `index.html` in any modern web browser
